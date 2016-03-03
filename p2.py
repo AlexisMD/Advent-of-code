@@ -2,7 +2,7 @@ import re
 data = open("day2.txt")
 text = data.read()
 
-def prism(l,w,h):
+def prism(l,w,h): # calculating are for rectangular prism
     x = l*w
     y = w*h
     z = h*l
