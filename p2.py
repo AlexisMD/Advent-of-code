@@ -8,16 +8,23 @@ def prism(l,w,h): # calculating are for rectangular prism
     z = h*l
     d = min(x,y,z)
     area = 2*(x + y + z) + d    
-    print (area)
+    return area
 
- 
+
+
+r = 0
 for row in text.split():
     a,b,c = [int(u) for u in row.split('x')]
+    q = prism (a,b,c)
+    r = r + q
+print (r)
+
+       
     
+
  
 
 
 
 
-text = re.sub('[x]', '', text)
 
