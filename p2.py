@@ -11,6 +11,11 @@ def prism(l,w,h): # calculating are for rectangular prism
     print (area)
 
  
+for row in text.split():
+    a,b,c = [int(u) for u in row.split('x')]
+    
+ 
+
 
 
 
