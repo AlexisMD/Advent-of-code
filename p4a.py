@@ -1,6 +1,6 @@
 import hashlib
 
-def hasher(mystring):
+def hasher(mystring): #Generating MD5
     return hashlib.md5(mystring.encode("utf-8")).hexdigest()
 w = 0
 word = "ckczppom"
